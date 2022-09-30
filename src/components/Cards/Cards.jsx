@@ -9,6 +9,7 @@ function Cards({
   return (
     <div>
       <div className="card-1">
+      <h1>{props.day}</h1>
         <h2>
           {props.locationRegion}/{props.locationName}
         </h2>
