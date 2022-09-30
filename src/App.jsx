@@ -2,7 +2,7 @@ import "./App.css";
 import { useGeolocated } from "react-geolocated";
 import axios from "axios";
 import { useEffect, useState } from "react";
-import "antd/dist/antd.css";
+import 'antd/dist/antd.min.css';
 import { TextField, Button, Autocomplete } from "@mui/material/";
 import { countriesData } from "./countriesData.js";
 import Cards from "./components/Cards/Cards";
@@ -67,8 +67,7 @@ function App() {
       .catch(function (error) {
         console.error(error);
       });
-  }, []);
-
+  });
   // const searchInput = (e) => {
   //   setInput(e.target.value)
   // }
