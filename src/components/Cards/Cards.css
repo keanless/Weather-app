@@ -1,0 +1,33 @@
+.card-1 {
+  width: 320px;
+  height: 400px;
+  background-color: #ffdee9;
+  background-image: linear-gradient(0deg, #ffdee9 0%, #b5fffc 100%);
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(0, 225, 255, 0.42);
+  transition: all cubic-bezier(0.39, 0.575, 0.565, 1) 0.3s;
+  cursor: pointer;
+}
+.card-1:hover {
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
+}
+.card-1 > * {
+  color: rgb(0, 0, 0);
+  font-weight: 500;
+}
+
+.weather-card-img {
+  display: inline-block;
+}
+
+.splide__arrow {
+  display: none !important;
+}
+
+.splide__pagination {
+  bottom: -1.5rem !important;
+}
