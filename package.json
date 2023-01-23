@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.10.4",
-    "@emotion/styled": "^11.10.4",
+    "@emotion/styled": "^11.10.5",
     "@mui/material": "^5.10.6",
     "@splidejs/react-splide": "^0.7.11",
     "@testing-library/jest-dom": "^5.16.5",
